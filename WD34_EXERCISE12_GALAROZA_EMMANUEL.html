@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>The Gifted</title>
+    <link rel="icon" type="image/x-icon" href="img/the_gifted.png">
+</head>
+<body class="bg-dark text-light">
+    <!-- Hero & Navigation UNFINISHED-->
+    <div class="vid">
+        <div class="navibackground">
+            
+        </div>
+        <!-- Navigation -->
+        <div class="extra w-100">
+            <div class="fafacontent1">
+                <input type="checkbox" id="check">
+                <label for="check" class="searchbtn p-0">
+                    <i class="fa-solid fa-bars text-light"></i>
+                </label>
+                <div class="something text-light bg-dark" id="tryhaha">
+                    <label for="check" class="searchbtn p-3 ekis text-light">
+                        <i class="fa-solid fa-x"></i>
+                    </label>
+                    <br>
+                    <h3 class="text-light">Fandom</h3>
+                    <br>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <hr class="m-0">
+                    <div class="overFlow text-light bg-dark">
+                        <ul>
+                            <li>
+                                <a href="">Home</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href="">About</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href="">Seasons</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href="">Casts</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href="">Videos</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href="">Others</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="fafacontent2">
+                <div>
+                    <div class="tooltipextra">
+                        <input type="text" class="stinpt">
+                        <button class="searchbtn">
+                            <i class="fa-solid fa-magnifying-glass text-light"></i>
+                        </button>
+                        <span class="tooltiptext">Search</span>
+                    </div>
+                </div>
+                <div>
+                    <button class="searchbtn" data-bs-toggle="modal" data-bs-target="#login">
+                        <div class="tooltipextra">
+                            <i class="fa-regular fa-user text-light"></i>
+                            <span class="tooltiptext">Profile</span>
+                        </div>
+                    </button>
+                </div>
+                <div>
+                    <button class="searchbtn" data-bs-toggle="modal" data-bs-target="#play">
+                        <div class="tooltipextra">
+                            <i class="fa-regular fa-circle-play text-light"></i>
+                            <span class="tooltiptext">Watch</span>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="theg-img">
+            <img src="img/the_gifted.png" class="w-25" alt="">
+        </div>
+        <video src="vid/the_gifted.mp4" width="100%" autoplay loop muted></video>
+        <div class="overlay w-100 h-100"></div>
+
+        <!-- Hero Section SATISFIED-->
+        <div class="herosec text-light">
+            <h1 class="text-center">TAKE A STEP INTO THE WORLD <br> OF MUTANTS</h1>
+            <a href="#joinus" class="text-light"><button class="join">JOIN US!</button></a>
+        </div>
+
+    </div>
+
+    <!-- LOGIN FORM/PROFILE DONE -->
+    <div class="modal fade" id="login">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content signinextra">
+                <h3 class="modal-title text-light text-center">Sign In</h3>
+                <hr>
+                <div class="modal-body">
+                    <div class="form-floating">
+                        <input type="text" id="mutantName" class="form-control w-100 formextra signin text-light" placeholder="Username:">
+                        <label for="mutantName" class="labelextra text-light">Username:</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="password" id="password" class="form-control w-100 formextra signin text-light" placeholder="Password:">
+                        <label for="password" class="labelextra text-light">Password:</label>
+                    </div>
+                    <input type="submit" class="w-100 mt-3 btn text-light" value="Sign In">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Play Trailer -->
+    <div class="modal fade" id="play">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-dark">
+                <div class="modal-header" data-bs-dismiss="modal">
+                    <h3 class="text-light">Watch trailer</h3>
+                    <button class="btn ekistwo">
+                        <a href=""><i class="fa-solid fa-x text-light"></i></a>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <video src="vid/the_gifted.mp4" controls fullscreen class="w-100"></video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sidenav -->
+    <div class="container-fluid sidenavextra">
+        <div class="navcontainer">
+            <div class="fafaprofile">
+                <i class="fa-solid fa-house-user"></i>
+            </div>
+            <div class="fafaprofile">
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="fafaprofile">
+                <i class="fa-solid fa-comment"></i>
+            </div>
+            <div class="fafaprofile">
+                <i class="fa-solid fa-address-book"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mutants, All Power Scenes, Comics, Marvel DONE! -->
+    <div class="container mb-5 category">
+        <div class="cardextra">
+            <div class="">
+                <div class="card imrd" data-bs-toggle="modal" data-bs-target="#allPowerScene">
+                    <img src="img/all_power.jpg" class="w-100 xtraimg" alt="">
+                    <div class="card-img-overlay text-light">
+                        <p class="toverlay">ALL POWER SCENE</p>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <a href="https://comicvine.gamespot.com/the-gifted/4075-714/characters/" target="_blank">
+                    <div class="card imrd">
+                        <img src="img/comics.jpg" class="w-100 xtraimg" alt="">
+                        <div class="card-img-overlay text-light">
+                            <p class="toverlay">COMICS</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="">
+                <div class="card imrd" data-bs-toggle="modal" data-bs-target="#communityReacts">
+                    <img src="img/mutants.jpg" class="w-100 xtraimg" alt="">
+                    <div class="card-img-overlay text-light">
+                        <p class="toverlay">COMMUNITY REACTS</p>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <a href="https://www.marvel.com/tv-shows" target="_blank">
+                    <div class="card imrd">
+                        <img src="img/marvel.jpg" class="w-100 xtraimg" alt="">
+                        <div class="card-img-overlay text-light">
+                            <p class="toverlay">MARVEL</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- All power scene DONE! -->
+    <div class="modal fade" id="allPowerScene">
+        <div class="modal-dialog">
+            <div class="container allpowextra">
+                <div class="modalextra">
+                    <div class="">
+                        <h1 class="text-center">All power Scenes</h1>
+                    </div>
+                    <div class="">
+                        <h4 class="text-center mt-3">By Charachters</h4>
+                    </div>
+                </div>
+                <div class="accordion modal-content modalextra" id="accordionMain">
+                    <div class="accordion-item itemextra">
+                        <div class="accordion-header" id="AccordionOne">
+                            <button class="accordion-button bg-dark text-light active" data-bs-toggle="collapse" data-bs-target="#contentOne">
+                                Reed Strucker
+                            </button>
+                        </div>
+                        <div class="accordion-collapse collapse" id="contentOne" data-bs-parent="#accordionMain">
+                            <div class="accordion-body">
+                                <div class="powerextra">
+                                    <div class="">
+                                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/t_HEb7pWWjI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="text-light powertext">
+                                        <h5>Strength and Abilities</h5>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptate ullam, doloribus deserunt similique placeat porro explicabo laudantium beatae illo officia repudiandae harum unde, ducimus corporis assumenda commodi culpa laborum.
+                                        <br><br>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias suscipit officia itaque, reprehenderit amet ullam inventore fugit nihil pariatur. Eum numquam saepe itaque dolores corporis expedita repudiandae temporibus nesciunt quibusdam.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-header" id="AccordionTwo">
+                            <button class="accordion-button bg-dark text-light" data-bs-toggle="collapse" data-bs-target="#contentTwo">
+                                Lauren Strucker
+                            </button>
+                        </div>
+                        <div class="accordion-collapse collapse" id="contentTwo" data-bs-parent="#accordionMain">
+                            <div class="accordion-body">
+                                <div class="powerextra">
+                                    <div class="">
+                                        <iframe class="w-100" height="315" src="https://www.youtube.com/embed/EXziQwEI430" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="powertext text-light">
+                                        <h5>Strength and Abilities</h5>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptate ullam, doloribus deserunt similique placeat porro explicabo laudantium beatae illo officia repudiandae harum unde, ducimus corporis assumenda commodi culpa laborum.
+                                        <br><br>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias suscipit officia itaque, reprehenderit amet ullam inventore fugit nihil pariatur. Eum numquam saepe itaque dolores corporis expedita repudiandae temporibus nesciunt quibusdam.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-header" id="AccordionThree">
+                            <button class="accordion-button bg-dark text-light" data-bs-toggle="collapse" data-bs-target="#contentThree">
+                                Andy Strucker
+                            </button>
+                        </div>
+                        <div class="accordion-collapse collapse" id="contentThree" data-bs-parent="#accordionMain">
+                            <div class="accordion-body">
+                                <div class="powerextra">
+                                    <div class="">
+                                        <iframe class="w-100" height="315" src="https://www.youtube.com/embed/EwljtEG34Ko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="powertext text-light">
+                                        <h5>Strength and Abilities</h5>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptate ullam, doloribus deserunt similique placeat porro explicabo laudantium beatae illo officia repudiandae harum unde, ducimus corporis assumenda commodi culpa laborum.
+                                        <br><br>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias suscipit officia itaque, reprehenderit amet ullam inventore fugit nihil pariatur. Eum numquam saepe itaque dolores corporis expedita repudiandae temporibus nesciunt quibusdam.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-header" id="AccordionFour">
+                            <button class="accordion-button bg-dark text-light" data-bs-toggle="collapse" data-bs-target="#contentFour">
+                                Thunderbird
+                            </button>
+                        </div>
+                        <div class="accordion-collapse collapse" id="contentFour" data-bs-parent="#accordionMain">
+                            <div class="accordion-body">
+                                <div class="powerextra">
+                                    <div class="">
+                                        <iframe class="w-100" height="315" src="https://www.youtube.com/embed/fIfGwSmGlBg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="powertext text-light">
+                                        <h5>Strength and Abilities</h5>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptate ullam, doloribus deserunt similique placeat porro explicabo laudantium beatae illo officia repudiandae harum unde, ducimus corporis assumenda commodi culpa laborum.
+                                        <br><br>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias suscipit officia itaque, reprehenderit amet ullam inventore fugit nihil pariatur. Eum numquam saepe itaque dolores corporis expedita repudiandae temporibus nesciunt quibusdam.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-header" id="AccordionFive">
+                            <button class="accordion-button bg-dark text-light" data-bs-toggle="collapse" data-bs-target="#contentFive">
+                                Blink
+                            </button>
+                        </div>
+                        <div class="accordion-collapse collapse" id="contentFive" data-bs-parent="#accordionMain">
+                            <div class="accordion-body">
+                                <div class="powerextra">
+                                    <div class="">
+                                        <iframe class="w-100" height="315" src="https://www.youtube.com/embed/QKFdYLHiPVM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="powertext text-light">
+                                        <h5>Strength and Abilities</h5>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptate ullam, doloribus deserunt similique placeat porro explicabo laudantium beatae illo officia repudiandae harum unde, ducimus corporis assumenda commodi culpa laborum.
+                                        <br><br>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias suscipit officia itaque, reprehenderit amet ullam inventore fugit nihil pariatur. Eum numquam saepe itaque dolores corporis expedita repudiandae temporibus nesciunt quibusdam.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-header" id="AccordionSix">
+                            <button class="accordion-button bg-dark text-light" data-bs-toggle="collapse" data-bs-target="#contentSix">
+                                Dreamer
+                            </button>
+                        </div>
+                        <div class="accordion-collapse collapse" id="contentSix" data-bs-parent="#accordionMain">
+                            <div class="accordion-body">
+                                <div class="powerextra">
+                                    <div class="">
+                                        <iframe class="w-100" height="315" src="https://www.youtube.com/embed/LemmwybfxlQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="powertext text-light">
+                                        <h5>Strength and Abilities</h5>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptate ullam, doloribus deserunt similique placeat porro explicabo laudantium beatae illo officia repudiandae harum unde, ducimus corporis assumenda commodi culpa laborum.
+                                        <br><br>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias suscipit officia itaque, reprehenderit amet ullam inventore fugit nihil pariatur. Eum numquam saepe itaque dolores corporis expedita repudiandae temporibus nesciunt quibusdam.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-header" id="AccordionSeven">
+                            <button class="accordion-button bg-dark text-light" data-bs-toggle="collapse" data-bs-target="#contentSeven">
+                                Eclipse
+                            </button>
+                        </div>
+                        <div class="accordion-collapse collapse" id="contentSeven" data-bs-parent="#accordionMain">
+                            <div class="accordion-body">
+                                <div class="powerextra">
+                                    <div class="">
+                                        <iframe class="w-100" height="315" src="https://www.youtube.com/embed/XgVlmCY7O7A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="powertext text-light">
+                                        <h5>Strength and Abilities</h5>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptate ullam, doloribus deserunt similique placeat porro explicabo laudantium beatae illo officia repudiandae harum unde, ducimus corporis assumenda commodi culpa laborum.
+                                        <br><br>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias suscipit officia itaque, reprehenderit amet ullam inventore fugit nihil pariatur. Eum numquam saepe itaque dolores corporis expedita repudiandae temporibus nesciunt quibusdam.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-header" id="AccordionEight">
+                            <button class="accordion-button bg-dark text-light" data-bs-toggle="collapse" data-bs-target="#contentEight">
+                                Polaris
+                            </button>
+                        </div>
+                        <div class="accordion-collapse collapse" id="contentEight" data-bs-parent="#accordionMain">
+                            <div class="accordion-body">
+                                <div class="powerextra">
+                                    <div class="">
+                                        <iframe class="w-100" height="315" src="https://www.youtube.com/embed/2TvDY_I8y0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="powertext text-light">
+                                        <h5>Strength and Abilities</h5>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptate ullam, doloribus deserunt similique placeat porro explicabo laudantium beatae illo officia repudiandae harum unde, ducimus corporis assumenda commodi culpa laborum.
+                                        <br><br>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias suscipit officia itaque, reprehenderit amet ullam inventore fugit nihil pariatur. Eum numquam saepe itaque dolores corporis expedita repudiandae temporibus nesciunt quibusdam.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-header" id="AccordionNine">
+                            <button class="accordion-button bg-dark text-light" data-bs-toggle="collapse" data-bs-target="#contentNine">
+                                The Frost Sisters
+                            </button>
+                        </div>
+                        <div class="accordion-collapse collapse" id="contentNine" data-bs-parent="#accordionMain">
+                            <div class="accordion-body">
+                                <div class="powerextra">
+                                    <div class="">
+                                        <iframe class="w-100" height="315" src="https://www.youtube.com/embed/Rpxp_H9PEhg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="powertext text-light">
+                                        <h5>Strength and Abilities</h5>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptate ullam, doloribus deserunt similique placeat porro explicabo laudantium beatae illo officia repudiandae harum unde, ducimus corporis assumenda commodi culpa laborum.
+                                        <br><br>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias suscipit officia itaque, reprehenderit amet ullam inventore fugit nihil pariatur. Eum numquam saepe itaque dolores corporis expedita repudiandae temporibus nesciunt quibusdam.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-header" id="AccordionTen">
+                            <button class="accordion-button bg-dark text-light" data-bs-toggle="collapse" data-bs-target="#contentTen">
+                                Reeva Payge
+                            </button>
+                        </div>
+                        <div class="accordion-collapse collapse" id="contentTen" data-bs-parent="#accordionMain">
+                            <div class="accordion-body">
+                                <div class="powerextra">
+                                    <div class="">
+                                        <iframe class="w-100" height="315" src="https://www.youtube.com/embed/YidGIill6s8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="powertext text-light">
+                                        <h5>Strength and Abilities</h5>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptate ullam, doloribus deserunt similique placeat porro explicabo laudantium beatae illo officia repudiandae harum unde, ducimus corporis assumenda commodi culpa laborum.
+                                        <br><br>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias suscipit officia itaque, reprehenderit amet ullam inventore fugit nihil pariatur. Eum numquam saepe itaque dolores corporis expedita repudiandae temporibus nesciunt quibusdam.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Community Reacts DONE! -->
+    <div class="modal fade" id="communityReacts">
+        <div class="modal-dialog">
+            <div class="container">
+                <h2 class="text-center me-2 mb-0 pb-0">Community Reacts</h2>
+                <br><br>
+                <div class="modal-content corextra">
+                    <div class="carousel slide carouselextra" data-bs-ride="carousel" id="controllCommunity">
+                        <div class="carousel-indicators indicatextra">
+                            <button data-bs-target="#controllCommunity" data-bs-slide-to="0" class="active"></button>
+                            <button data-bs-target="#controllCommunity" data-bs-slide-to="1"></button>
+                            <button data-bs-target="#controllCommunity" data-bs-slide-to="2"></button>
+                        </div>
+                        <div class="carousel-inner innerextra">
+                            <div class="carousel-item active">
+                                <div class="fieldextra">
+                                    <div class="comrect text-center">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <img src="img/quote.png" class="w-50" alt="">
+                                            </div>
+                                            <div class="col-3">
+    
+                                            </div>
+                                            <div class="col-6">
+                                                <p class="date ms-5 ps-5">12/02/22 11:25</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 ps-4 pe-4 text-black">
+                                                <img src="img/sample-profile.png" class="p-0 mb-2 w-25 rounded-circle reactpic" alt="">
+                                                <p><b>First and Last Name</b></p>
+                                                <p class="reactextra">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eveniet voluptates sequi! Velit quibusdam esse ad quo, numquam animi? Natus ea officiis exercitationem, molestias quaerat at! Quos nihil facilis officiis!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="fieldextra">
+                                    <div class="comrect text-center">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <img src="img/quote.png" class="w-50" alt="">
+                                            </div>
+                                            <div class="col-3">
+    
+                                            </div>
+                                            <div class="col-6">
+                                                <p class="date ms-5 ps-5">12/08/22 10:29</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 ps-4 pe-4 text-black">
+                                                <img src="img/sample-profile.png" class="p-0 mb-2 w-25 rounded-circle reactpic" alt="">
+                                                <p><b>First and Last Name</b></p>
+                                                <p class="reactextra">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eveniet voluptates sequi! Velit quibusdam esse ad quo, numquam animi? Natus ea officiis exercitationem, molestias quaerat at! Quos nihil facilis officiis!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="fieldextra">
+                                    <div class="comrect text-center">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <img src="img/quote.png" class="w-50" alt="">
+                                            </div>
+                                            <div class="col-3">
+    
+                                            </div>
+                                            <div class="col-6">
+                                                <p class="date ms-5 ps-5">11/17/22 09:30</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 ps-4 pe-4 text-black">
+                                                <img src="img/sample-profile.png" class="p-0 mb-2 w-25 rounded-circle reactpic" alt="">
+                                                <p><b>First and Last Name</b></p>
+                                                <p class="reactextra">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eveniet voluptates sequi! Velit quibusdam esse ad quo, numquam animi? Natus ea officiis exercitationem, molestias quaerat at! Quos nihil facilis officiis!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" data-bs-target="#controllCommunity" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" data-bs-target="#controllCommunity" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                    <div class="textextra me-3">
+                        <textarea cols="30" rows="4" placeholder="Send your feedback..." class="w-100"></textarea>
+                        <button class="btn btn-secondary w-100">Post</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <!-- Seasons DONE! -->
+    <div class="container mt-5 mb-5">
+        <h2 class="text-center">Seasons</h2>
+        <div class="mt-4 seasonextra">
+            <div class="">
+                <a href="Season1.html">
+                    <div class="card imrdtwo">
+                        <img src="img/season1.jpg" class="w-100" alt="">
+                        <div class="card-img-overlay text-light">
+                            <p class="toverlaytwo">SEASON 1</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="">
+                <a href="Season2.html">
+                    <div class="card imrdtwo">
+                        <img src="img/season2.jpg" class="w-100" alt="">
+                        <div class="card-img-overlay text-light">
+                            <p class="toverlaytwo">SEASON 2</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Casts DONE!-->
+    <div class="container mb-5 mt-5">
+        <h2>Main Casts</h2>
+        <div class="carousel slide" data-bs-ride="carousel" id="controllMeCarousel">
+            <div class="carousel-indicators">
+                <button data-bs-target="#controllMeCarousel" data-bs-slide-to="0" class="active"></button>
+                <button data-bs-target="#controllMeCarousel" data-bs-slide-to="1"></button>
+                <button data-bs-target="#controllMeCarousel" data-bs-slide-to="2"></button>
+                <button data-bs-target="#controllMeCarousel" data-bs-slide-to="3"></button>
+                <button data-bs-target="#controllMeCarousel" data-bs-slide-to="4"></button>
+                <button data-bs-target="#controllMeCarousel" data-bs-slide-to="5"></button>
+                <button data-bs-target="#controllMeCarousel" data-bs-slide-to="6"></button>
+                <button data-bs-target="#controllMeCarousel" data-bs-slide-to="7"></button>
+                <button data-bs-target="#controllMeCarousel" data-bs-slide-to="8"></button>
+                <button data-bs-target="#controllMeCarousel" data-bs-slide-to="9"></button>
+                <button data-bs-target="#controllMeCarousel" data-bs-slide-to="10"></button>
+            </div>
+            <div class="carousel-inner cardoextra">
+                <div class="carousel-item active">
+                    <div class="card">
+                        <img src="img/stephen.jpg" alt="" class="d-block w-100 cimgcast">
+                        <div class="card-img-overlay text-light">
+                            <div class="overlayoncarouselExtra">
+                                <h4>Stephen Moyer</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident quaerat repudiandae harum, nisi, quas iste sunt culpa sequi obcaecati laudantium accusamus numquam! Molestias eligendi reiciendis voluptatum quos quibusdam sunt dolorem?</p>
+                                <a href="">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <img src="img/amy.jpg" alt="" class="d-block w-100 cimgcast">
+                        <div class="card-img-overlay text-light">
+                            <div class="overlayoncarouselExtra">
+                                <h4>Amy Acker</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident quaerat repudiandae harum, nisi, quas iste sunt culpa sequi obcaecati laudantium accusamus numquam! Molestias eligendi reiciendis voluptatum quos quibusdam sunt dolorem?</p>
+                                <a href="">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <img src="img/sean.jpg" alt="" class="d-block w-100 cimgcast">
+                        <div class="card-img-overlay text-light">
+                            <div class="overlayoncarouselExtra">
+                                <h4>Sean Teale</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident quaerat repudiandae harum, nisi, quas iste sunt culpa sequi obcaecati laudantium accusamus numquam! Molestias eligendi reiciendis voluptatum quos quibusdam sunt dolorem?</p>
+                                <a href="">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <img src="img/natalie.jpg" alt="" class="d-block w-100 cimgcast">
+                        <div class="card-img-overlay text-light">
+                            <div class="overlayoncarouselExtra">
+                                <h4>Natalie Alyn Lind</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident quaerat repudiandae harum, nisi, quas iste sunt culpa sequi obcaecati laudantium accusamus numquam! Molestias eligendi reiciendis voluptatum quos quibusdam sunt dolorem?</p>
+                                <a href="">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <img src="img/percy.jpg" alt="" class="d-block w-100 cimgcast">
+                        <div class="card-img-overlay text-light">
+                            <div class="overlayoncarouselExtra">
+                                <h4>Percy Hynes White</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident quaerat repudiandae harum, nisi, quas iste sunt culpa sequi obcaecati laudantium accusamus numquam! Molestias eligendi reiciendis voluptatum quos quibusdam sunt dolorem?</p>
+                                <a href="">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <img src="img/coby.jpg" alt="" class="d-block w-100 cimgcast">
+                        <div class="card-img-overlay text-light">
+                            <div class="overlayoncarouselExtra">
+                                <h4>Coby Bell</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident quaerat repudiandae harum, nisi, quas iste sunt culpa sequi obcaecati laudantium accusamus numquam! Molestias eligendi reiciendis voluptatum quos quibusdam sunt dolorem?</p>
+                                <a href="">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <img src="img/jamie.jpg" alt="" class="d-block w-100 cimgcast">
+                        <div class="card-img-overlay text-light">
+                            <div class="overlayoncarouselExtra">
+                                <h4>Jamie Chung</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident quaerat repudiandae harum, nisi, quas iste sunt culpa sequi obcaecati laudantium accusamus numquam! Molestias eligendi reiciendis voluptatum quos quibusdam sunt dolorem?</p>
+                                <a href="">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <img src="img/blaire.jpg" alt="" class="d-block w-100 cimgcast">
+                        <div class="card-img-overlay text-light">
+                            <div class="overlayoncarouselExtra">
+                                <h4>Blaire Redford</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident quaerat repudiandae harum, nisi, quas iste sunt culpa sequi obcaecati laudantium accusamus numquam! Molestias eligendi reiciendis voluptatum quos quibusdam sunt dolorem?</p>
+                                <a href="">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <img src="img/emma.jpg" alt="" class="d-block w-100 cimgcast">
+                        <div class="card-img-overlay text-light">
+                            <div class="overlayoncarouselExtra">
+                                <h4>Emma Domunt</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident quaerat repudiandae harum, nisi, quas iste sunt culpa sequi obcaecati laudantium accusamus numquam! Molestias eligendi reiciendis voluptatum quos quibusdam sunt dolorem?</p>
+                                <a href="">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <img src="img/skyler.jpg" alt="" class="d-block w-100 cimgcast">
+                        <div class="card-img-overlay text-light">
+                            <div class="overlayoncarouselExtra">
+                                <h4>Skyler Samuels</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident quaerat repudiandae harum, nisi, quas iste sunt culpa sequi obcaecati laudantium accusamus numquam! Molestias eligendi reiciendis voluptatum quos quibusdam sunt dolorem?</p>
+                                <a href="">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <img src="img/grace.jpg" alt="" class="d-block w-100 cimgcast">
+                        <div class="card-img-overlay text-light">
+                            <div class="overlayoncarouselExtra">
+                                <h4>Grace Byers</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident quaerat repudiandae harum, nisi, quas iste sunt culpa sequi obcaecati laudantium accusamus numquam! Molestias eligendi reiciendis voluptatum quos quibusdam sunt dolorem?</p>
+                                <a href="">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" data-bs-target="#controllMeCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" data-bs-target="#controllMeCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+    <hr>
+
+    <!-- Other Marvel Series UNFINISHED -->
+    <div class="container mt-5 mb-5 marvelcontainer">
+        <h2 class="mb-3">Other Marvel Series</h2>
+        <div class="card text-black othermarvel">
+            <div class="otherimg">
+                <img src="img/wandaVision.jpg" class="w-100 card-img-top" alt="">
+            </div>
+            <div class="">
+                <img src="img/falcon.jpg" class="w-100 card-img-top" alt="">
+            </div>
+            <div class="">
+                <img src="img/loki.jpg" alt="" class="w-100 card-img-top">
+            </div>
+            <div class="">
+                <img src="img/moonknight.jpg" alt="" class="w-100 card-img-top">
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <!-- Join the Community DONE! -->
+    <div class="container mb-5" id="joinus">
+        <h2>Join Our Community</h2>
+        <div class="communityextra">
+            <div class="mt-3">
+                <div class="aboutus">
+                    <h4>ABOUT US</h4>
+                    <p>The Gifted and Marvel All Season's fan page. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, rem! A expedita doloremque doloribus molestias illum magnam dignissimos, sit repudiandae quo. Ullam magnam nam aliquid consequatur possimus ea quibusdam sapiente? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quas perspiciatis expedita ipsam quis. Similique impedit consectetur quas vel illum in eligendi aliquam perferendis, praesentium, culpa quia ipsa ut qui. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat beatae, fugit mollitia dicta magni, quasi aliquid sed possimus consequuntur similique, ad veniam doloribus harum quos deleniti illu.</p>
+                </div>
+            </div>
+
+            <!-- Sign up form -->
+            <div class="signextra">
+                <form action="">
+                    <h2 class="text-center">Sign up</h2>
+                    <div class="form-floating">
+                        <input type="text" id="firstname" class="form-control w-100 text-light formextra" placeholder="First Name:">
+                        <label for="firstname" class="text-light labelextra">First Name:</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="text" id="lastname"  class="form-control w-100 text-light formextra" placeholder="Last Name:">
+                        <label for="lastname" class="text-light labelextra">Last Name:</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="text" id="firstname" class="form-control w-100 text-light formextra" placeholder="Username:">
+                        <label for="username" class="text-light labelextra">Username:</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="email" id="emailadd" class="form-control w-100 text-light formextra" placeholder="Email Address:">
+                        <label for="emailadd" class="text-light labelextra">Email Address:</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="password" id="passwordone"  class="form-control w-100 text-light formextra" placeholder="Password:">
+                        <label for="passwordone" class="text-light labelextra">Password:</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="password" id="passwordtwo"  class="form-control w-100 text-light formextra" placeholder="Confirm Password:">
+                        <label for="passwordtwo" class="text-light labelextra">Confirm Password:</label>
+                    </div>
+                    <div class="mt-2">
+                        <input type="checkbox" id="agree" class="me-2"><label for="agree">I agree to the Terms and Policies</label>
+                    </div>
+                    <input type="SUBMIT" class="mt-3 w-50 buttonextra">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER NEED CHANGE FONTS -->
+    <footer class="bg-black pt-4">
+        <div class="container-fluid extrafooter">
+            <div class="footrow">
+                <div class="footrowone">
+                    <img src="img/the_gifted.png" class="w-50" alt="">
+                    <div class="fafaextra ms-5 ps-2 mt-3">
+                        <i class="fa-brands fa-twitter ms-4 text-center"></i>
+                        <i class="fa-brands fa-facebook ms-4 text-center"></i>
+                        <i class="fa-brands fa-instagram ms-4 text-center"></i>
+                        <i class="fa-brands fa-youtube ms-4 text-center"></i>
+                    </div>
+                </div>
+                <div class="ps-5">
+                    <div class="footrowtwo mt-3">
+                        <div class="footertitle">
+                            <h5 class="mb-3">More The Gifted</h5>
+                            <ul class="footerul p-0">
+                                <li>
+                                    <a href="">Media</a>
+                                </li>
+                                <li>
+                                    <a href="">Events</a>
+                                </li>
+                                <li>
+                                    <a href="">Programs</a>
+                                </li>
+                                <li>
+                                    <a href="">Newsletters</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footertitle">
+                            <h5 class="mb-3">About</h5>
+                            <ul class="footerul p-0">
+                                <li>
+                                    <a href="">References</a>
+                                </li>
+                                <li>
+                                    <a href="">Terms and Conditions</a>
+                                </li>
+                                <li>
+                                    <a href="">Privacy Statement</a>
+                                </li>
+                                <li>
+                                    <a href="">Cookie Statement</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="text-center m-0 footertext">
+            <p class="m-0">The Gifted is a <b>fandom</b> community.</p>
+            <p class="m-0 pb-3">Copyright 2022, All rights reserved. Made by Emmanuel G.</p>
+        </div>
+    </footer>
+</body>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+</html>

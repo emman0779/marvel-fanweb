@@ -1,0 +1,748 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Zen Dots', cursive;
+}
+
+/* Hero & Navigation */
+.vid{
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.677);
+    z-index: 2;
+}
+
+/* Navigation */
+.extra {
+    position: absolute;
+    z-index: 5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+.fafacontent1 {
+    margin-left: 200px;
+}
+.fafacontent2 {
+    margin-right: 100px;
+    display: flex;
+}
+.fafacontent2 div {
+    margin-left: 25px;
+}
+.stinpt {
+    background: none;
+    border: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+}
+.theg-img {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    margin-top: 27px;
+    z-index: 3;
+}
+i {
+    font-size: 20px;
+}
+#check {
+    display: none;
+}
+.something {
+    position: fixed;
+    top: 0px;
+    left: -350px;
+    transition: 0.5s ease;
+    max-width: 325px;
+    width: 100%;
+    max-height: 560px;
+    height: 100%;
+}
+#check:checked ~ .something {
+    left: 0px;
+    transition: 0.5s ease;
+}
+.something p {
+    padding: 0 20px;
+}
+.overFlow {
+    overflow-y: scroll;
+}
+.overFlow ul {
+    list-style: none;
+    padding: 0;
+}
+.overFlow ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.overFlow ul li {
+    padding: 20px 10px;
+}
+.ekis {
+    float: right;
+}
+
+.tooltipextra {
+    position: relative;
+}
+  
+.tooltipextra .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+    font-family: 'Courier New', Courier, monospace;
+}
+  
+.tooltipextra .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+.tooltipextra:hover .tooltiptext {
+    visibility: visible;
+}
+
+.searchbtn {
+    background: none !important;
+    border: none !important;
+    cursor: pointer !important;
+}
+
+/* Hero SATISFIED*/
+.join {
+    background: none;
+    padding: 10px;
+    border-color: white;
+    color: white;
+    backdrop-filter: blur(5px);
+    border: 3px solid white;
+    letter-spacing: 3px;
+    transition: 0.2s ease-in-out;
+}
+.join:hover {
+    transition: 0.2s ease-in-out;
+    background-color: rgba(255, 166, 0, 0.618);
+}
+.herosec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 4;
+}
+.herosec h1 {
+    font-family: 'Zen Dots', cursive;
+}
+
+/* Mutants, All Power Scenes, Comics, Marvel */
+.xtraimg {
+    max-width: 400px;
+    width: 100%;
+    max-height: 200px;
+    min-height: 200px;
+    height: 100%;
+    object-fit: cover;
+}
+.toverlay {
+    margin-top: 140px;
+    position: relative;
+    display: inline-block;
+    transition: 0.3s ease-in-out;
+}
+.toverlay::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: 0.4s ease-in-out;
+}
+.imrd:hover .toverlay::before {
+    width: 100%;
+}
+.imrd:hover .toverlay {
+    margin-top: 130px;
+    transition: 0.3s ease-in-out;
+}
+.imrd {
+    cursor: pointer;
+}
+
+.allpowextra {
+    width: 1500px !important;
+    margin-left: -327px !important;
+}
+.cardextra {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 10px;
+}
+
+.carouselextra {
+    background: none !important;
+    width: 700px !important;
+    margin-left: -120px !important;
+}
+
+.corextra {
+    background: none !important;
+    margin-top: -50px !important;
+    border: none !important;
+}
+
+.indicatextra {
+    display: none !important;
+}
+
+.textextra {
+    margin-top: -20px !important;
+}
+
+.comrect {
+    background-color: white !important;
+    box-shadow: 0 -4px 10px black !important;
+    margin: 40px 70px !important;
+    border-top-left-radius: 40px !important;
+    border-radius: 40px !important;
+}
+
+.reactextra {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.reactpic {
+    box-shadow: -2px 0 5px black
+}
+
+.date {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(0, 0, 0, 0.521);
+    font-size: 2;
+}
+
+/* Seasons */
+.toverlaytwo {
+    margin-top: 240px;
+    position: relative;
+    display: inline-block;
+    transition: 0.3s ease-in-out;
+}
+.toverlaytwo::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: 0.4s ease-in-out;
+}
+.imrdtwo:hover .toverlaytwo::before {
+    width: 100%;
+}
+.imrdtwo:hover .toverlaytwo {
+    margin-top: 225px;
+    transition: 0.3s ease-in-out;
+}
+.imrdtwo {
+    cursor: pointer;
+}
+.seasonextra {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+
+
+/* Main Casts */
+.cimgcast {
+    max-height: 600px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.aboutus {
+    border: 1px solid white;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 30px;
+}
+
+.formextra {
+    background: none!important;
+    border: none!important;
+    box-shadow: none!important;
+    border-bottom: 1px solid white !important;
+    border-radius: 0px !important;
+}
+
+.modalextra {
+    background: none !important;
+    backdrop-filter: blur(2px) !important;
+}
+
+.itemextra {
+    border-radius: 0px !important;
+    border: none !important;
+    background: none !important;
+}
+
+.itemextra button {
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    background: none !important;
+    border-bottom: 1px solid goldenrod !important;
+}
+.modextra {
+    background:black !important;
+}
+
+.labelextra {
+    padding-left: 0 !important;
+}
+
+.signextra {
+    padding: 0 50px !important;
+    border-radius: 50px;
+}
+
+.buttonextra {
+    margin-left: 120px;
+    padding: 5px;
+}
+
+.footerul {
+    list-style: none;
+}
+
+.footerul li a {
+    text-decoration: none;
+    color: rgb(0, 213, 255);
+}
+
+.footerul li {
+    margin-top: 3px;
+}
+.footrow {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+}
+.footrowtwo {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 60px;
+    margin-right: 50px;
+}
+.footertext p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card {
+    border: none !important;
+}
+
+.cardoextra {
+    position: relative !important;
+}
+
+.overlayoncarouselExtra {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    padding: 2vw 8vw;
+    background-color: rgba(0, 0, 0, 0.433);
+}
+.overlayoncarouselExtra h4 {
+    font-size: 2vw;
+}
+.overlayoncarouselExtra p {
+    font-size: 1.2vw;
+}
+.overlayoncarouselExtra a {
+    font-size: 1.3vw;
+}
+.othermarvel {
+    display: grid !important;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    background: none !important;
+}
+
+.fafaextra i {
+    font-size: 1.5rem;
+    margin-left: 1.8rem !important;
+}
+
+.communityextra {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.powerextra {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+}
+
+/* Season  1 */
+
+.episodes {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 20px;
+}
+
+.epimg {
+    position: relative;
+}
+.seasonoverlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 0.5s ease;
+}
+.textseason {
+    color: white;
+}
+.image {
+    transition: 0.5s ease;
+}
+.epimg:hover .image {
+    opacity: 0.5;
+    transition: 0.5s ease;
+    margin-top: -10px;
+    border: 2px 2px 5px black;
+}
+.epimg:hover .imagebottom {
+    margin-bottom: 10px;
+}
+.epimg:hover .seasonoverlay {
+    opacity: 1;
+    margin-top: -10px;
+    transition: 0.5s ease;
+}
+.epimg:hover {
+    cursor: pointer;
+}
+.episodeModal {
+    width: 1000px;
+    margin-left: -200px;
+    margin-top: 100px;
+    padding: 20px !important;
+    background: none !important;
+}
+.episodeimganddesc {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 10px;
+    align-items: center;
+}
+.overviewextra p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.overviewextra {
+    margin-top: -13rem;
+}
+.sidenavextra {
+    position: sticky !important;
+    top: 10rem;
+    text-align: right;
+    margin-top: 50px;
+}
+.navcontainer {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 5px;
+}
+.fafaprofile i {
+    text-align: center;
+    padding-top: 0.8rem;
+    background-color: rgba(255, 166, 0, 0.696);
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+}
+.fafaprofile i:hover {
+    background-color: orange;
+}
+.category {
+    margin-top: -12.8rem;
+}
+.signin {
+    border-bottom: 1px solid white !important;
+}
+.signinextra {
+    background: none !important;
+    background-color: rgba(0, 0, 0, 0.534) !important;
+}
+.navibackground {
+    display: none;
+}
+.something i {
+    margin-left: 55px;
+    font-size: 25px;
+}
+.othermarvel img:hover {
+    margin-top: -10px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.otherimg img:hover {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 676px) {
+    .fafacontent2 div {
+        margin-left: 10px;
+    }
+    .stinpt {
+        width: 100px;
+        font-size:10px;
+    }
+    .fafacontent2 {
+        right: -46px !important;
+        position: fixed;
+    }
+    .fafacontent1 {
+        margin-left: 0;
+    }
+    i {
+        font-size: 15px;
+    }
+    .navibackground {
+        display: block;
+        position: fixed;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.608);
+        width: 100%;
+        height: 5rem;
+        z-index: 5;
+    }
+    .extra {
+        margin-top: 27px;
+        margin-left: -20px;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+        position: fixed;
+        z-index: 8;
+    }
+    .herosec h1 {
+        font-size: 20px !important;
+        margin-top: 50px;
+    }
+    .join {
+        border: 1px solid white;
+        font-size: 10px;
+        letter-spacing: 0;
+    }
+    .theg-img img {
+        margin-right: 250px;
+        margin-top: -17px;
+        width: 45% !important;
+        position: fixed;
+    }
+    .theg-img {
+        z-index: 5;
+    }
+    .cardextra {
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 10px;
+    }
+    .imrd img {
+        height: 150px !important;
+    }
+    .toverlay {
+        margin-top: 90px;
+        font-size: 13px;
+    }
+    .imrd:hover .toverlay {
+        margin-top: 80px;
+    }
+    .seasonextra {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .imrdtwo {
+        min-width: 350px !important;
+        margin-bottom: 10px;
+    }
+    .toverlaytwo {
+        margin-top: 140px;
+    }
+    .imrdtwo:hover .toverlaytwo {
+        margin-top: 130px;
+    }
+    .overlayoncarouselExtra {
+        margin-top: 150px !important;
+        font-size: 7px;
+        padding: 0 30px;
+    }
+    .othermarvel {
+        display: grid !important;
+        grid-template-columns: auto auto !important;
+        justify-content: center;
+        gap: 10px;
+    }
+    .communityextra {
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 30px;
+    }
+    .buttonextra {
+        margin-left: 75px;
+    }
+    .aboutus p {
+        font-size: 14px;
+    }
+    .footrow {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+    }
+    .footrowtwo {
+        gap: 60px;
+        justify-content: center;
+    }
+    .footerul{
+        font-size: 15px !important;
+    }
+    .footerul li a {
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .footertext p {
+        font-size: 13px;
+    }
+    .fafaextra i {
+        margin-left:10px !important;
+        font-size: 17px;
+    }
+    footer {
+        position: relative;
+    }
+    .fafaextra {
+        position: absolute;
+        bottom: 80px;
+        left: 80px;
+    }
+    .footertitle h5 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 19px;
+    }
+    .modalextra h1 {
+        font-size: 25px;
+    }
+    .allpowextra {
+        width: 1100px !important;
+    }
+    .itemextra{
+        width: 400px !important;
+        margin-left: 325px !important;
+    }
+    .powerextra div iframe {
+        height: 200px !important;
+    }
+    .powerextra {
+        grid-template-columns: 100%;
+    }
+    .powertext {
+        font-size: 13px;
+    }
+    .episodes {
+        grid-template-columns: auto auto;
+        gap: 10px;
+    }
+    .seasonoverlay {
+        display: none;
+    }
+    .epimg:hover .image {
+        opacity: 1;
+        transition: 0.5s ease;
+        margin-top: 0px;
+        border: 2px 2px 5px black;
+    }
+    .epimg:hover .imagebottom {
+        margin-bottom: 0px;
+    }
+    .sidenavextra {
+        display: none;
+    }
+    .category {
+        margin-top: 2rem;
+    }
+    .tooltiptext {
+        display: none;
+    }
+    .overviewextra {
+        margin-top: 2rem;
+    }
+    .overviewextra h4{
+        font-size: 1rem;
+    }
+    .overviewextra p {
+        font-size: 1rem;
+    }
+    .something {
+        z-index: 8;
+    }
+    .corextra {
+        width: 27rem !important;
+    }
+    .fieldextra {
+        width: 35.2rem !important;
+        margin-left: 2.8rem;
+    }
+    .episodeModal {
+        width: 50rem;
+        margin-top: 0;
+    }
+    .episodeimganddesc {
+        grid-template-columns: 70%;
+        margin-left: 12rem;
+        margin-top: -1rem !important;
+    }
+}
